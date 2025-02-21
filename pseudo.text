@@ -1,0 +1,30 @@
+-Create 16x16 grid of square divs
+this will be flexbox using dom manipulation 
+using a for loop in a function to create the grid.
+This will be inside a container div for best practice,
+this one can be written in the html file
+
+Set a hover effect so that the grid divs change color on mouse over,
+also leaving a pixilated trail through it, this will most likely use event listeners
+
+Add a button on the top of the screen that will send the user a popup asking for the 
+number of squares per side for the new grid. Once entered, the existing grid should be 
+removed, and a new grid should be generated in the same total space as before
+(e.g., 960px wide) so that you’ve got a new sketch pad. 
+
+To Do:
+
+-Create function to create grid using for loop and dom manipulation to
+create the div grid
+-The above function will later have a prompt that will allow the user to
+input a number of squares to be used, this will clear the old grid and replace with
+this grid so it will have a similar loop as above getting num from user input
+-Create function that will change the div colors on mouse hover
+-Create function that will leave a pixel trail following the mouse, this will probably also
+be a hover event
+
+extra credit:
+-make it so the pixel trail is rng colors
+
+-dditionally, implement a progressive darkening effect where each interaction darkens the square
+ by 10%. The goal is to achieve a fully black (or completely colored) square in only ten interactions.

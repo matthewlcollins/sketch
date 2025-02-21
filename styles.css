@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.header {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    font-weight: 800;
+}
+
+.container {
+    display: flex;
+    border: 2px solid;
+    height: 800px;
+    width: 800px;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+.sidebar {
+    position: fixed;
+    top: 150px;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+    border: 2px solid;
+
+}
